@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Generate a SASS and Jade base project with Gulp",
   "license": "WTFPL",
-  "repository": "https://github.com/THE-Beck/generator-sup",
+  "repository": "https://github.com/53ck/generator-sup",
   "author": "53ck",
   "main": "app/index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "sass",
     "jade",
     "jquery",
-    "bootstrap"
+    "bootstrap",
     "sup"
   ],
   "devDependencies": {
