@@ -1,6 +1,6 @@
 {
   "name": "generator-sup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate a SASS and Jade base project with Gulp",
   "license": "WTFPL",
   "repository": "https://github.com/53ck/generator-sup",
