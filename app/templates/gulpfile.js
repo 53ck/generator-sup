@@ -103,14 +103,13 @@ gulp.task('js:build', function() {
 // jade
 gulp.task('jade', function() {
   return gulp.src('app/views/**/[^_]*.jade')
-    .pipe(plumber())
     .pipe(jade())
     .pipe(gulp.dest('dist/'));
 });
 
 gulp.task('jade:watch', function() {
-  return gulp.src('app/views/**/*.jade')
-    .pipe(changed('dist', {extension: '.html'}))
+  return gulp.src('app/views/**/[^_]*.jade')
+    .pipe(plumber())
     .pipe(cached('jade:watch'))
     .pipe(inheritance({basedir: 'app/views'}))
     .pipe(jade({pretty: true}))
